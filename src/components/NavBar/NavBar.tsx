@@ -16,8 +16,12 @@ const NavBar = () => {
             <img src={menuBtn} alt="menu" />
           </button>
           {/* {TODO: Replace a tags with router dom Link} */}
-          <a href="/">
-            <img src={brandLogo} alt="audiophile logo" />
+          <a href="/" className={styles.logoAnchor}>
+            <img
+              src={brandLogo}
+              alt="audiophile logo"
+              className={styles.logo}
+            />
           </a>
           <button className={styles.navBtn}>
             <img src={cartIcon} alt="shopping cart" />
