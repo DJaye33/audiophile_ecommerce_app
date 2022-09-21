@@ -13,10 +13,10 @@ const NavBar = () => {
     <div className={styles.navBarContainer}>
       <Container>
         <nav className={styles.nav}>
-          <button className={styles.navBtn}>
+          <button className={`${styles.navBtn} ${styles.menuBtn}`}>
             <img src={menuBtn} alt="menu" />
           </button>
-          {/* {TODO: Replace a tags with router dom Link} */}
+          {/* {TODO: Replace a tags with router dom Link} TODO: */}
           <a href="/" className={styles.logoAnchor}>
             <img
               src={brandLogo}

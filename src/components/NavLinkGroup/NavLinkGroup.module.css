@@ -1,0 +1,13 @@
+.navLinkGroup {
+  display: none;
+  width: 42.9rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Media queries */
+@media (min-width: 1110px) {
+  .navLinkGroup {
+    display: flex;
+  }
+}

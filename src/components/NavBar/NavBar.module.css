@@ -50,4 +50,16 @@
   .divider {
     margin-top: 3.6rem;
   }
+
+  .logoAnchor {
+    flex: initial;
+  }
+
+  .logo {
+    margin-left: initial;
+  }
+
+  .menuBtn {
+    display: none;
+  }
 }

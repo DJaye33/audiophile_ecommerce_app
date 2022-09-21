@@ -7,7 +7,7 @@ const NavLinkGroup = () => {
   return (
     <div className={styles.navLinkGroup}>
       {links.map((link) => (
-        <NavLink key={link} linkText={link} />
+        <NavLink key={link} linkText={link.toUpperCase()} />
       ))}
     </div>
   );

@@ -1,0 +1,11 @@
+.navLink {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.2rem;
+  color: var(--color-pure-white);
+}
+
+.navLink:hover {
+  color: var(--color-peru);
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import styles from "./NavLink.module.css";
 
 interface NavLinkProps {
   linkText: string;
@@ -7,7 +7,9 @@ interface NavLinkProps {
 const NavLink = ({ linkText }: NavLinkProps) => {
   return (
     /* FIXME: Replace with router dom Link */
-    <a href="/">{linkText}</a>
+    <a href="/" className={styles.navLink}>
+      {linkText}
+    </a>
   );
 };
 

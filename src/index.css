@@ -30,6 +30,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Global Media Queries */
 @media (min-width: 1110px) {
   .container {
