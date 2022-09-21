@@ -1,11 +1,7 @@
-.container {
-  border: 1px dotted red;
-}
-
 /* Media Queries */
-@media (min-width: 1024px) {
+/* @media (min-width: 1110px) {
   .container {
     max-width: 1110px;
     margin: 0 auto;
   }
-}
+} */

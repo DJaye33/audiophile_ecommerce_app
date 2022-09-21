@@ -35,6 +35,11 @@
     position: initial;
     width: 100%;
     max-width: 1110px;
+  }
+}
+
+@media (min-width: 1110px) {
+  .divider {
     margin-top: 3.6rem;
   }
 }
