@@ -6,6 +6,7 @@ import styles from "./NavBar.module.css";
 import menuBtn from "../../assets/shared/tablet/icon-hamburger.svg";
 import brandLogo from "../../assets/shared/desktop/logo.svg";
 import cartIcon from "../../assets/shared/desktop/icon-cart.svg";
+import NavLinkGroup from "../NavLinkGroup/NavLinkGroup";
 
 const NavBar = () => {
   return (
@@ -23,6 +24,7 @@ const NavBar = () => {
               className={styles.logo}
             />
           </a>
+          <NavLinkGroup />
           <button className={styles.navBtn}>
             <img src={cartIcon} alt="shopping cart" />
           </button>
