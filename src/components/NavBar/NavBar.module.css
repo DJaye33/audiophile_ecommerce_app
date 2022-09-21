@@ -1,0 +1,40 @@
+.navBarContainer {
+  background: var(--color-pure-black);
+  padding: 3.2rem 2.4rem;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBtn {
+  border: none;
+  background-color: var(--color-pure-black);
+}
+
+.divider {
+  position: absolute;
+  background-color: var(--color-pure-black);
+  opacity: 0.2;
+  left: 0;
+  right: 0;
+  margin-top: 3.2rem;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .navBarContainer {
+    position: initial;
+    padding: 3.2rem 4rem;
+  }
+
+  .divider {
+    position: initial;
+    width: 100%;
+    max-width: 1110px;
+    margin-top: 3.6rem;
+  }
+}

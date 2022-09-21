@@ -20,6 +20,8 @@ html {
 }
 
 body {
+  /* TODO: Remember to remove temporary background color */
+  background-color: black;
   margin: 0;
   font-family: ManropeVar, -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
